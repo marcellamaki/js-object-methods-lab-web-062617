@@ -1,27 +1,102 @@
 {
   "stats": {
-    "suites": 0,
-    "tests": 0,
-    "passes": 0,
+    "suites": 7,
+    "tests": 6,
+    "passes": 6,
     "pending": 0,
-    "failures": 1,
-    "start": "2016-07-26T20:54:43.066Z",
-    "end": "2016-07-26T20:54:43.073Z",
-    "duration": 7
+    "failures": 0,
+    "start": "2017-08-10T13:58:21.254Z",
+    "end": "2017-08-10T13:58:21.593Z",
+    "duration": 339
   },
-  "tests": [],
-  "pending": [],
-  "failures": [
+  "tests": [
     {
-      "title": "\"before all\" hook",
-      "fullTitle": " \"before all\" hook",
-      "duration": 1,
+      "title": "can create a president with a name, home state, political party, and years in office",
+      "fullTitle": "President Presidents Constructor Function can create a president with a name, home state, political party, and years in office",
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: President is not defined\n    at Context.before (test/index-test.js:3:23)",
-        "message": "President is not defined"
-      }
+      "err": {}
+    },
+    {
+      "title": "returns \"NO!\"",
+      "fullTitle": "President veto() returns \"NO!\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"You can do that!\"",
+      "fullTitle": "President passBill() returns \"You can do that!\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"I like to help people.\"",
+      "fullTitle": "President doCharity() returns \"I like to help people.\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"I am proud to be an American.\"",
+      "fullTitle": "President conductPressInterview() returns \"I am proud to be an American.\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"Hi, my name is <name>, I am from <homestate>. I represent the <politcalParty>s and was in office <yearsInOffice>.\"",
+      "fullTitle": "President sayHi() returns \"Hi, my name is <name>, I am from <homestate>. I represent the <politcalParty>s and was in office <yearsInOffice>.\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
     }
   ],
-  "passes": []
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "can create a president with a name, home state, political party, and years in office",
+      "fullTitle": "President Presidents Constructor Function can create a president with a name, home state, political party, and years in office",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"NO!\"",
+      "fullTitle": "President veto() returns \"NO!\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"You can do that!\"",
+      "fullTitle": "President passBill() returns \"You can do that!\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"I like to help people.\"",
+      "fullTitle": "President doCharity() returns \"I like to help people.\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"I am proud to be an American.\"",
+      "fullTitle": "President conductPressInterview() returns \"I am proud to be an American.\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns \"Hi, my name is <name>, I am from <homestate>. I represent the <politcalParty>s and was in office <yearsInOffice>.\"",
+      "fullTitle": "President sayHi() returns \"Hi, my name is <name>, I am from <homestate>. I represent the <politcalParty>s and was in office <yearsInOffice>.\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
 }
